@@ -3,6 +3,7 @@ import Carousel from './Carousel'
 import Footer from './Footer'
 import NavBar from './NavBar'
 import Products from './Products'
+import Trending from './Trending'
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
             <Carousel />
             <Products />
             <Footer />
+            <Trending/>
         </>
     )
 }
