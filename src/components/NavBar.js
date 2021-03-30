@@ -67,6 +67,9 @@ function NavBar() {
                 <Link className="nav-link text-white" to="/offer">
                   Offer
                 </Link>
+                <Link className="nav-link text-white" to="/deals">
+                  Deals
+                </Link>
               </li>
               <li className="nav-item dropdown">
                 <Link
