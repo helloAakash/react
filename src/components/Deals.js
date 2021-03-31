@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
 import NavBar from './NavBar';
+import Day from './Day';
+import Week from './Week';
 
 const Deals = () => {
     return (
@@ -50,7 +52,17 @@ const Deals = () => {
                                 </div>
                                 </div>
 
-                                <div className="col-md-8"></div>
+                                <div className="col-md-10">
+                                    <div className="shadow p-2">
+                                        <center><h3>Deals of the Day</h3></center>
+                                    </div>
+
+                                    <Day/>
+                                    <div className="shadow p-2">
+                                        <center><h3>Deals of the week</h3></center>
+                                    </div>
+                                    <Week/>
+                                </div>
                                 
                             </div>
             </div>

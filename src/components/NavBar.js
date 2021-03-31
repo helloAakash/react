@@ -67,10 +67,18 @@ function NavBar() {
                 <Link className="nav-link text-white" to="/offer">
                   Offer
                 </Link>
+              </li>
+              <li className="nav-item">
                 <Link className="nav-link text-white" to="/deals">
                   Deals
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link text-white" to="/contact">
+                  Contact
+                </Link>
+              </li>
+                
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle text-white"

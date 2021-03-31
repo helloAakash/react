@@ -11,12 +11,12 @@ const Signin =()=>{
             <div className="col-md-6 offset-md-3 shadow-lg p-5">
                 <form>
 
-                    <div className="col-md-12">
+                    <div className="col-md-12 mb-3">
                         <label htmlFor="email">Email</label>
                         <input type="email" className="form-control" placeholder="Email"/>
                     </div>
 
-                    <div className="col-md-12">
+                    <div className="col-md-12 mb-3">
                         <label htmlFor="password">Password</label>
                         <input type="password" className="form-control" placeholder="Password"/>
                     </div>
